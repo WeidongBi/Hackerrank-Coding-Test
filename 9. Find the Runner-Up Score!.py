@@ -9,7 +9,7 @@
 # Output Format: Print the runner-up (second maximum) score
 
 n = int(input())
-array = list(map(int, input().split()))
+array = list(map(int, input().split()))  # map(function, iterables)
 max_value = max(array)
 number_max_value = array.count(max_value)
 for i in range(number_max_value):
